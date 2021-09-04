@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Canvas Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="canvas-page.css">
+    
+    </head>
+    <body>
+<button id="back_button" onclick="back()" style="right: 0px; ;" class="glyphicon glyphicon-log-out btn btn-danger">Back</button>
+<center>
+<p class="btn btn-success" style="box-shadow: 5px 5px 5px black; margin-top: -25px;">Accuracy: <span id="result_object_accuracy"></span></p>
+<br>
+<br>
+<p class="btn btn-warning" style="box-shadow: 5px 5px 5px black;">Person: <span id="result_object_name"></span></p>
+</center>
+<script src="canvas-page.js"></script>
+    </body>
+</html>

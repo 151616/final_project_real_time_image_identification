@@ -1,0 +1,19 @@
+canvas{
+ margin-top: 47px;
+    border-width: 6px;
+    border-style: ridge;
+    animation: border_color 50s infinite;
+}
+@keyframes border_color{
+    0%{border-color: purple;}
+    10%{border-color: purple;}
+    20%{border-color:pink;}
+    30%{border-color: red;}
+    40%{border-color: orange;}
+    50%{border-color: yellow;}
+    60%{border-color: green;}
+    70%{border-color: blue;}
+    80%{border-color: darkslategray}
+    90%{border-color: limegreen;}
+    100%{border-color: purple;}
+}

@@ -1,0 +1,50 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px orange;
+}
+.heading_div{
+    float:none;
+    background-color: royalblue;
+    border-radius: 20px;
+    padding: 10px;
+    color: cornsilk;
+    box-shadow: 5px 5px 5px lightgreen;
+}
+.heading_div2{
+    font-size: 18px;
+}
+.result_para_tag{
+    box-shadow: 5px 5px 5px darkslategray;
+    font-size: 20px;
+
+}
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    line-height: 1;
+    text-align: center;
+}
+canvas{
+border: 5px solid white;
+border-radius: 20px;
+box-shadow: 5px 5px 5px darkslategrey;
+margin-top: 150px;
+
+}
+.result_para_tag:hover{
+width: 125px;
+height: 50px;
+border: ridge darkred;
+}
+#result_object_name:hover{
+    font-size: 15px;
+}
+.copy_right_footer:hover{
+    line-height: 2;
+    font-size: 20px;
+}
